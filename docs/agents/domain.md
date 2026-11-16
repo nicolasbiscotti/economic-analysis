@@ -49,3 +49,10 @@ If the concept you need isn't in the glossary yet, that's a signal: either you'r
 If your output contradicts an existing ADR, surface it explicitly rather than silently overriding:
 
 > _Contradicts ADR-0007 (event-sourced orders), but worth reopening because…_
+
+## Where changes land
+
+- **Domain docs** (`GLOSSARY.md`, `docs/adr/`): commit straight to `main` and push. Every session reads them from `main`, and terms and decisions are approved live with the human while they're written.
+- **Research findings**: commit to a throwaway `research/<name>` branch, push it, and link it from the ticket. These branches are never merged.
+
+This is the interim rule while the project has one developer. The future team workflow (branches, PRs, review) will replace it.
