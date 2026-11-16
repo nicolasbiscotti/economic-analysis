@@ -40,6 +40,11 @@ The amount actually paid to settle a Payment, which may differ from its Expected
 _Spanish_: Monto pagado
 _Avoid_: Actual amount, cost
 
+**Currency**:
+The money a Fixed Expense is owed in, such as Argentine pesos or US dollars. It belongs to the Fixed Expense and never changes; its Expected Amount and every Amount Paid are in it, and amounts in different currencies are never added together or converted.
+_Spanish_: Moneda
+_Avoid_: Denomination, home currency
+
 **Variable Expense**:
 A one-off amount spent on a date, such as groceries, clothing or a birthday party. It is never Pending. Reserved for a future module and not part of v1.
 _Spanish_: Gasto variable
