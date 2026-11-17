@@ -60,6 +60,11 @@ A calendar month (for example, March 2026), judged by the person's local date. E
 _Spanish_: Mes
 _Avoid_: Period, cycle
 
+**Ledger**:
+A named group of expenses, such as a person's own expenses, a second home or a business property. It is created by one person and may later be shared with other people; it is the unit that gets shared. Every Fixed Expense and Card belongs to exactly one Ledger, and a person may have several. In v1 each person has exactly one, and it is never shown.
+_Spanish_: not shown in v1; its on-screen name in each language is chosen when it first appears in the UI.
+_Avoid_: Household, Account, Workspace, Wallet
+
 ## Credit cards
 
 **Card**:
