@@ -12,7 +12,7 @@ _Spanish_: Gasto fijo
 _Avoid_: Recurring expense, bill, subscription
 
 **Expected Amount**:
-The amount a Fixed Expense is expected to cost in a month. Optional, because some expenses (such as electricity) have no predictable amount.
+The person's best estimate of what a Fixed Expense will cost in a month. It changes from a chosen Month onwards, until the next change. It may be left blank while the person has no idea what an expense will cost, such as a first electricity bill; once set, it can be changed but never cleared, because the last estimate is always the best guess available.
 _Spanish_: Monto esperado
 _Avoid_: Budget, price, estimate
 
